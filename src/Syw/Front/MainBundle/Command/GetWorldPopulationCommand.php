@@ -31,10 +31,10 @@ class GetWorldPopulationCommand extends ContainerAwareCommand
     {
         $this
             ->setName('syw:get:worldpopulation')
-            ->setDescription('Gets the actual world population')
+            ->setDescription('Gets the current world population')
             ->setDefinition(array())
             ->setHelp(<<<EOT
-The <info>syw:get:worldpopulation</info> gets the actual world population
+The <info>syw:get:worldpopulation</info> gets the current world population
 
 EOT
             );

@@ -71,7 +71,7 @@ class SignatureImagesController extends BaseController
                 imagestring($imNeu, 3, 20, 55, "Registered Linux user since ".$createdat."", $black);
                 imagestring($imNeu, 5, 70, 78, "Linux User #".$thisuser->getId(), $black);
                 imagestring($imNeu, 2, 20, 104, "This user has ".$machine_count." Linux machines registered.", $black);
-                imagestring($imNeu, 2, 20, 116, "".$machinesonline_count." Linux machines are actually online.", $black);
+                imagestring($imNeu, 2, 20, 116, "".$machinesonline_count." Linux machines are currently online.", $black);
                 imagestring($imNeu, 1, 110, 134, "A free service from linuxcounter.net", $black);
                 imagepng($imNeu, $cert);
             }

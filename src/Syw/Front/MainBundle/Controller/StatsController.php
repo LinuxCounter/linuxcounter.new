@@ -39,7 +39,7 @@ class StatsController extends BaseController
             'accountInfo' => $this->getAccountInfo(),
             'online' => $online,
             'metatitle' => $metatitle,
-            'metadescription' => $this->get('translator')->trans('See here how many linux users there are in the world and how many users and machines actually are registered to the Linux Counter', array(), 'syw_front_main_main_index'),
+            'metadescription' => $this->get('translator')->trans('See here how many linux users there are in the world and how many users and machines are currently registered to the Linux Counter', array(), 'syw_front_main_main_index'),
             'title1' => $title1,
             'title2' => $title2,
             'languages' => $languages,
