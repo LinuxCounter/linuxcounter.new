@@ -4,7 +4,7 @@
 
 {% block fos_user_content %}
     {% if error %}
-        <div class="credential_error">{{ error.messageKey|trans(error.messageData, 'security') }} If you think this is a mistake, please first try to use the password reset form by clicking the <span class="blink">red blinking</span> button below the login form (or by clicking <a href="{{ url("fos_user_resetting_request") }}">here</a>). If this did not help, <a href="{{ url('syw_front_main_main_contact') }}">contact us through the contact form</a>.</div>
+        <div class="credential_error">{{ error.messageKey|trans(error.messageData, 'security') }} If you think this is a mistake, please first try to use the password reset form by clicking the <span class="blink" style="color:red;font-weight:bold;">red blinking</span> button below the login form (or by clicking <a href="{{ url("fos_user_resetting_request") }}">here</a>). If this did not help, <a href="{{ url('syw_front_main_main_contact') }}">contact us through the contact form</a>.</div>
     {% endif %}
 
         <div class="row">
