@@ -36,7 +36,7 @@ class IrcBotImportListener extends CommandListener
 
         $running = @exec('ps ax | grep "syw:import:lico" | grep -v grep');
         if (trim($running) == "") {
-            $msg = "There is actually no import running.";
+            $msg = "There is currently no import running.";
             $this->sendMessage(array($event->getChannel()), $msg);
         } else {
             $qb = $this->em->createQueryBuilder();
@@ -49,7 +49,7 @@ class IrcBotImportListener extends CommandListener
             $qb->from('SywFrontMainBundle:Machines', 'machines');
             $mCount = $qb->getQuery()->getSingleScalarResult();
 
-            $msg = "There are actually ".number_format($uCount)." users and ".number_format($mCount)." machines imported, out of around 600,000 users.";
+            $msg = "There are currently ".number_format($uCount)." users and ".number_format($mCount)." machines imported, out of around 600,000 users.";
             $this->sendMessage(array($event->getChannel()), $msg);
 
 

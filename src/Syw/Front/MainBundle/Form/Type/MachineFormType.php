@@ -71,7 +71,7 @@ class MachineFormType extends AbstractType
             ->add('mailer', 'text', array('label' => 'Mailer software', 'required' => false))
             ->add('network', 'text', array('label' => 'Network', 'required' => false))
             ->add('accounts', 'text', array('label' => 'Number of Accounts', 'required' => false))
-            ->add('uptime', 'text', array('label' => 'Actual Uptime', 'required' => false))
+            ->add('uptime', 'text', array('label' => 'Current Uptime', 'required' => false))
             ->add('loadavg', 'text', array('label' => 'Load average', 'required' => false))
 
             ->add('save', 'submit');
