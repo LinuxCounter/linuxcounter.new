@@ -8,7 +8,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
  * Class Privacy
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  *
  * @ORM\Entity
  * @ORM\Table(name="privacy")

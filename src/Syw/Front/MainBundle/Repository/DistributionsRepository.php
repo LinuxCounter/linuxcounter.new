@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityRepository;
 /**
  * Class DistributionsRepository
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class DistributionsRepository extends EntityRepository
 {

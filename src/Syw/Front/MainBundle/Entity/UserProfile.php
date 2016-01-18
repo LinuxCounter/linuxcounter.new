@@ -8,7 +8,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 /**
  * Class UserProfile
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  * @ORM\Entity(repositoryClass="Syw\Front\MainBundle\Repository\UserProfileRepository")
  * @ORM\Table(name="user_profile")
  */

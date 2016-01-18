@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 /**
  * Class PasswordResettingListener
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class PasswordResettingListener implements EventSubscriberInterface
 {

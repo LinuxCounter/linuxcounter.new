@@ -5,7 +5,7 @@ This is the codebase for the new website of *The Linux Counter Project* on https
 It is based on Symfony 2 and has replaced the old website in the second quarter of 2015.
 
 [![Build Status](http://linuxcounter.net:8080/buildStatus/icon?job=TheLinuxCounterProject)](http://linuxcounter.net:8080/job/TheLinuxCounterProject/)
-[![GitHub issues](https://img.shields.io/github/issues/alexloehner/linuxcounter.new.svg)](https://github.com/alexloehner/linuxcounter.new/issues)
+[![GitHub issues](https://img.shields.io/github/issues/christinloehner/linuxcounter.new.svg)](https://github.com/christinloehner/linuxcounter.new/issues)
 [![Coverage Status](https://coveralls.io/repos/alexloehner/linuxcounter.new/badge.svg)](https://coveralls.io/r/alexloehner/linuxcounter.new)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alexloehner/linuxcounter.new/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alexloehner/linuxcounter.new/?branch=master)
 [![Code Climate](https://codeclimate.com/github/alexloehner/linuxcounter.new/badges/gpa.svg)](https://codeclimate.com/github/alexloehner/linuxcounter.new)
@@ -33,6 +33,6 @@ This codebase is licensed under the GPL Version 3 license. See the complete lice
 Reporting an issue or a feature request
 ---------------------------------------
 
-Issues and feature requests are tracked in the [Github issue tracker](https://github.com/alexloehner/linuxcounter.new/issues).
+Issues and feature requests are tracked in the [Github issue tracker](https://github.com/christinloehner/linuxcounter.new/issues).
 
 When reporting a bug, please be as descriptive and exact as possible.

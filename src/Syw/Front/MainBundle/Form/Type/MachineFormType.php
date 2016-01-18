@@ -11,7 +11,7 @@ use Syw\Front\MainBundle\Entity\Machines;
 /**
  * Class MachineFormType
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class MachineFormType extends AbstractType
 {

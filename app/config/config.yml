@@ -249,7 +249,7 @@ eko_feed:
                 route_name: syw_front_rssfeed_default_feed
                 # route_params: {id: 2} # necessary if route cantains required parameters
             encoding:    'utf-8'
-            author:      'Alexander Löhner' # Only required for Atom feeds
+            author:      'Christin Löhner' # Only required for Atom feeds
 
 ewz_recaptcha:
     public_key:  "%recaptcha_public_key%"

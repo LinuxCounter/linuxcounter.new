@@ -7,7 +7,7 @@ use Syw\Front\MainBundle\Entity\UserProfile;
 /**
  * Class UserProfileManager
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class UserProfileManager extends AbstractManager
 {

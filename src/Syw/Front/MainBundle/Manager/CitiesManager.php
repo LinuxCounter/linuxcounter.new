@@ -7,7 +7,7 @@ use Syw\Front\MainBundle\Entity\Cities;
 /**
  * Class CitiesManager
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class CitiesManager extends AbstractManager
 {

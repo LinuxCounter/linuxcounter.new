@@ -111,11 +111,11 @@ $(document).ready(function() {
     });
 
     $(".githubissues").click(function(){
-        window.location.href = "https://github.com/alexloehner/linuxcounter.new/issues";
+        window.location.href = "https://github.com/christinloehner/linuxcounter.new/issues";
     });
 
     $(".github").click(function(){
-        window.location.href = "https://github.com/alexloehner/linuxcounter.new";
+        window.location.href = "https://github.com/christinloehner/linuxcounter.new";
     });
 
     $(".travis").click(function(){
@@ -139,7 +139,7 @@ $(document).ready(function() {
     });
 
     $(".license").click(function(){
-        window.location.href = "https://github.com/alexloehner/linuxcounter.new/blob/master/LICENSE";
+        window.location.href = "https://github.com/christinloehner/linuxcounter.new/blob/master/LICENSE";
     });
 
     $(".facebook").click(function(){

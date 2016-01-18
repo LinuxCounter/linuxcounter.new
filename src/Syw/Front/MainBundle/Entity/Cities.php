@@ -12,7 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 /**
  * Class Cities
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  * @ORM\Entity(repositoryClass="Syw\Front\MainBundle\Repository\CitiesRepository")
  * @ORM\Table(name="cities", indexes={@Index(name="name", columns={"name"}), @Index(name="searchcity", columns={"iso_country_code", "name"}), @Index(name="searchkoords", columns={"latitude", "longitude"}), @Index(name="usernum", columns={"usernum"})})
  */

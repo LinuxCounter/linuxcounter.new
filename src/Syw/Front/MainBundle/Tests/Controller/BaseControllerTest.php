@@ -7,7 +7,7 @@ use Syw\Front\MainBundle\Tests\BaseTestCase;
 /**
  * Class BaseControllerTest
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 abstract class BaseControllerTest extends BaseTestCase
 {

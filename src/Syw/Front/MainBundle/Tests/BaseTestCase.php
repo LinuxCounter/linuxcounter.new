@@ -10,7 +10,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * Class BaseTestCase
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 abstract class BaseTestCase extends WebTestCase
 {

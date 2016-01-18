@@ -15,9 +15,9 @@ use Symfony\Component\Validator\Constraints\Collection;
  *
  * @category FormType
  * @package  SywFrontMainBundle
- * @author   Alexander Löhner <alex.loehner@linux.com>
+ * @author   Christin Löhner <alex.loehner@linux.com>
  * @license  GPL v3
- * @link     https://github.com/alexloehner/linuxcounter.new
+ * @link     https://github.com/christinloehner/linuxcounter.new
  */
 class CityFormType extends AbstractType
 {

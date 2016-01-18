@@ -10,7 +10,7 @@ use EWZ\Bundle\RecaptchaBundle\Validator\Constraints\True;
 /**
  * Class RegistrationFormType
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class RegistrationFormType extends AbstractType
 {

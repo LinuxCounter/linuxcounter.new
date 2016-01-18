@@ -8,7 +8,7 @@ use Symfony\Component\Security\Http\Event\InteractiveLoginEvent;
 /**
  * Class UserLocaleListener
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class UserLocaleListener
 {

@@ -13,7 +13,7 @@ use Abraham\TwitterOAuth\TwitterOAuth;
 /**
  * Class BaseController
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class BaseController extends Controller
 {

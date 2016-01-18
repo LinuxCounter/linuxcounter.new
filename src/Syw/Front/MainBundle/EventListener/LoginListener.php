@@ -17,7 +17,7 @@ use Syw\Front\ApiBundle\Entity\ApiAccess;
 /**
  * Class LoginListener
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class LoginListener implements EventSubscriberInterface
 {

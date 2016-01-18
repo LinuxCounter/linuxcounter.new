@@ -11,7 +11,7 @@ use Syw\Front\MainBundle\Entity\Privacy;
 /**
  * Class UserProfileFormType
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class UserPrivacyFormType extends AbstractType
 {

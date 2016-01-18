@@ -7,7 +7,7 @@ use Syw\Front\MainBundle\Entity\Languages;
 /**
  * Class LanguageManager
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class LanguageManager extends AbstractManager
 {

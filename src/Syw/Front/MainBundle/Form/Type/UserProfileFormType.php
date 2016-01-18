@@ -11,7 +11,7 @@ use Syw\Front\MainBundle\Entity\UserProfile;
 /**
  * Class UserProfileFormType
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class UserProfileFormType extends AbstractType
 {

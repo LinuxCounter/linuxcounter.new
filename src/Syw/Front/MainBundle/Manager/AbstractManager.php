@@ -10,7 +10,7 @@ use Doctrine\ORM\EntityManager;
 /**
  * AbstractManager manager class
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 abstract class AbstractManager
 {

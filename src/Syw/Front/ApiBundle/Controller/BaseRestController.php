@@ -11,9 +11,9 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  *
  * @category Controller
  * @package  SywFrontApiBundle
- * @author   Alexander Löhner <alex.loehner@linux.com>
+ * @author   Christin Löhner <alex.loehner@linux.com>
  * @license  GPL v3
- * @link     https://github.com/alexloehner/linuxcounter.new
+ * @link     https://github.com/christinloehner/linuxcounter.new
  */
 class BaseRestController extends FOSRestController
 {

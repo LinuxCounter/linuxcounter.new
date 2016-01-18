@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityRepository;
 /**
  * Class CitiesRepository
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class CitiesRepository extends EntityRepository
 {

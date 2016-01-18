@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityManager;
 /**
  * Class RepositoryHelper
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class RepositoryHelper
 {

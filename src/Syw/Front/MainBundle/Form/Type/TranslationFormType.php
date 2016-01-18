@@ -11,7 +11,7 @@ use Asm\TranslationLoaderBundle\Entity\Translation;
 /**
  * Class TranslationFormType
  *
- * @author Alexander Löhner <alex.loehner@linux.com>
+ * @author Christin Löhner <alex.loehner@linux.com>
  */
 class TranslationFormType extends AbstractType
 {
