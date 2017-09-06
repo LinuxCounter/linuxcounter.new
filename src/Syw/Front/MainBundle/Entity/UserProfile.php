@@ -100,16 +100,9 @@ class UserProfile
     /**
      * @var string
      *
-     * @ORM\Column(name="irc", type="string", length=255, nullable=true)
+     * @ORM\Column(name="msn", type="string", length=255, nullable=true)
      */
-    private $irc;
-
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="gpg", type="string", length=255, nullable=true)
-     */
-    private $gpg;
+    private $msn;
 
     /**
      * @var string
@@ -369,50 +362,26 @@ class UserProfile
     }
 
     /**
-     * Set irc
+     * Set msn
      *
-     * @param string $irc
+     * @param string $msn
      * @return UserProfile
      */
-    public function setIrc($irc)
+    public function setMsn($msn)
     {
-        $this->irc = $irc;
+        $this->msn = $msn;
 
         return $this;
     }
 
     /**
-     * Get irc
+     * Get msn
      *
      * @return string
      */
-
-    public function getIrc()
+    public function getMsn()
     {
-        return $this->irc;
-    }
-
-    /**
-     * Set pgp/gpg
-     *
-     * @param string $gpg
-     * @return UserProfile
-     */
-    public function setGpg($gpg)
-    {
-        $this->gpg = $gpg;
-
-        return $this;
-    }
-
-    /**
-     * Get pgp/gpg
-     *
-     * @return string
-     */
-    public function getGpg()
-    {
-        return $this->gpg;
+        return $this->msn;
     }
 
     /**
