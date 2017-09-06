@@ -51,7 +51,9 @@ class UserProfileFormType extends AbstractType
             ->add('icq', 'text', array('label' => 'ICQ', 'required' => false))
             ->add('skype', 'text', array('label' => 'Skype', 'required' => false))
             ->add('jabber', 'text', array('label' => 'Jabber', 'required' => false))
-            ->add('msn', 'text', array('label' => 'MSN', 'required' => false))
+            ->add('irc', 'text', array('label' => 'IRC', 'required' => false))
+            ->add('gpg', 'text', array('label' => 'PGP/GPG', 'required' => false))
+
             ->add('facebook', 'text', array('label' => 'Facebook page', 'required' => false))
             ->add('google', 'text', array('label' => 'Google+ Page', 'required' => false))
             ->add('twitter', 'text', array('label' => 'Twitter', 'required' => false))
