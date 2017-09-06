@@ -107,6 +107,20 @@ class UserProfile
     /**
      * @var string
      *
+     * @ORM\Column(name="irc", type="string", length=255, nullable=true)
+     */
+    private $irc;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="gpg", type="string", length=255, nullable=true)
+     */
+    private $gpg;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="facebook", type="string", length=255, nullable=true)
      */
     private $facebook;
@@ -382,6 +396,54 @@ class UserProfile
     public function getMsn()
     {
         return $this->msn;
+    }
+
+
+    /**
+     * Set irc
+     *
+     * @param string $irc
+     * @return UserProfile
+     */
+    public function setIrc($irc)
+    {
+        $this->irc = $irc;
+
+        return $this;
+    }
+
+    /**
+     * Get irc
+     *
+     * @return string
+     */
+    public function getIrc()
+    {
+        return $this->irc;
+    }
+
+
+    /**
+     * Set gpg
+     *
+     * @param string $gpg
+     * @return UserProfile
+     */
+    public function setGpg($gpg)
+    {
+        $this->gpg = $gpg;
+
+        return $this;
+    }
+
+    /**
+     * Get gpg
+     *
+     * @return string
+     */
+    public function getGpg()
+    {
+        return $this->gpg;
     }
 
     /**
