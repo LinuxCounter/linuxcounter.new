@@ -12,9 +12,9 @@ in the second quarter of *2015*).
 [![Coverage Status](https://coveralls.io/repos/alexloehner/linuxcounter.new/badge.svg)](https://coveralls.io/r/alexloehner/linuxcounter.new)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alexloehner/linuxcounter.new/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alexloehner/linuxcounter.new/?branch=master)
 [![Code Climate](https://codeclimate.com/github/alexloehner/linuxcounter.new/badges/gpa.svg)](https://codeclimate.com/github/alexloehner/linuxcounter.new)
+[![Dependency Status](https://www.versioneye.com/user/projects/5509756b4996ebef3300004f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5509756b4996ebef3300004f)
 
 [![Build Status](http://linuxcounter.net:8080/buildStatus/icon?job=TheLinuxCounterProject)](http://linuxcounter.net:8080/job/TheLinuxCounterProject/)
-[![Dependency Status](https://www.versioneye.com/user/projects/5509756b4996ebef3300004f/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5509756b4996ebef3300004f)
 
 De-scription
 ------------
