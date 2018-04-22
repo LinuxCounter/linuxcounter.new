@@ -26,7 +26,8 @@ Since 2012 (anno domini), January (the 11th), – the address – changed:
 
     from [http://counter.li.org] – to [https://www.linuxcounter.net]
 
-– to host the only (and – main) **real** Linux counter: with the *largest* base, of users.
+– to host the only (and – main) real *Linux* counter: 
+with the largest base – of **users**.
 
 The *original* counter – was run by a non-profit member-ship organization
 (called – «The *Linux* counter Project»). This organization – was created 
