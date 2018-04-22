@@ -19,8 +19,8 @@ in the second quarter of *2015*).
 De-scription
 ------------
 
-The **new** Linux counter *Project* – was created – to re-vive (and – re-place)
-the good *old* [counter](http://counter.li.org).
+The *new* «Linux counter» Project – was created to re-vive (and – re-place)
+the good *old* [version](http://counter.li.org).
 
 Since 2012 (anno domini), January (the 11th), – the address – changed: 
 
