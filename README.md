@@ -18,11 +18,13 @@ De-scription
 
 The *new* «Linux counter» Project – was created as a [re-placement](http://counter.li.org).
 
-Since the 2,012 (anno domini), January (the 11-th), – the address – was changed: 
+Since year №2.012 (January; the №11-th), – the address – was changed: 
 
-    from [HTTP://Counter.Li.Org] – to [HTTPS://WWW.LinuxCounter.Net]
+    from [HTTP://Counter.Li.Org]
+        –
+            to [HTTPS://WWW.LinuxCounter.Net]
 
-– to host the only (and – main) **real** *Linux* counter (with the largest base: of **users**).
+– to host the only (and – main) real Linux counter: with the largest base of **users**.
 
 The *original* counter – was ran by a *Non*-Profit member-ship (organization,
 called – «The *Linux* counter Project»), – which – was created on 
