@@ -57,10 +57,8 @@ On the 10th of September (in 2011, anno domini), we – were (also) [Slash/Dotte
 License
 -------
 
-This (code-base) – is licensed under a **GPL-3** license. 
-To see the complete license, – look – in the root, of this re-pository:
-
-    LICENSE
+This (code-base) – is licensed under a **GPL-3** [LICENSE].
+To see it – just click it (or – look in the root, of this re-pository).
 
 Re-porting an Issue? (Or – a Feature re-quest?)
 -----------------------------------------------
