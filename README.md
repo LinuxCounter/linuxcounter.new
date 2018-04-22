@@ -1,10 +1,10 @@
-The «Linux» counter *Project*
-=============================
+The *Linux* counter
+===================
 
 Greetings!
 
-This *code* (based on a **Symfony-2**) – is for a [web-site](https://www.linuxcounter.net));
-since – the second quarter of *2,015* (anno domini).
+Anno domini (year: №2.015; quarter: №2),
+the counter – [re-vived](https://www.linuxcounter.net); now – on **Symfony-2**.
 
 [![Build Status](http://linuxcounter.net:8080/buildStatus/icon?job=TheLinuxCounterProject)](http://linuxcounter.net:8080/job/TheLinuxCounterProject/)
 [![GitHub issues](https://img.shields.io/github/issues/christinloehner/linuxcounter.new.svg)](https://github.com/christinloehner/linuxcounter.new/issues)
