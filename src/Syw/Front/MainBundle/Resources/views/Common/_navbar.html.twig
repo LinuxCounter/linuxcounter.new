@@ -13,7 +13,7 @@
                             <img class="responsive" src="{{ gravatar(accountInfo.email) }}" alt="Gravatar image"/>
                         </div>
                         <div class="displayname">
-                            {{ 'Hello %accountInfo.displayname%'|trans({
+                            {{ 'Hello, %accountInfo.displayname% ! :)'|trans({
                                 '%accountInfo.displayname%': accountInfo.displayname
                             }) }}
                         </div>
