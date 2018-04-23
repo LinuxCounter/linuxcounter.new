@@ -55,7 +55,7 @@ On the 10-th of September (in 2.011, anno domini) – the project was (also) [Sl
 License
 -------
 
-The code base – has a GNU **GPL-3** [LICENSE].
+The code base – has a [GNU **GPL-3**](LICENSE).
 
 Re-porting an Issue? (Or – a Feature re-quest?)
 -----------------------------------------------
