@@ -56,6 +56,11 @@ class MainController extends BaseController
      */
     public function contactAction(Request $request)
     {
+        
+        // Disabled! 
+        return false;
+        exit;
+        
         $languages = $this->get('doctrine')
             ->getRepository('SywFrontMainBundle:Languages')
             ->findBy(array('active' => 1), array('language' => 'ASC'));
