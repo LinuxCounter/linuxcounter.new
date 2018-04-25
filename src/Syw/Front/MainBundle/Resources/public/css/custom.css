@@ -17,7 +17,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/* Special class: on «.container» surrounding «.navbar». Used – for positioning it into place. */
 .navbar-wrapper {
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@ body {
     width: 100%;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
+/* Flip around the padding – for proper display in narrow view-ports. */
 .navbar-wrapper > .container {
     padding-right: 0;
     padding-left: 0;
@@ -52,12 +52,12 @@ body {
     margin-bottom: 60px;
 }
 
-/* Since positioning the image, we need to help out the caption */
+/* Since positioning the image, – we – need to help out the caption! */
 .carousel-caption {
     z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* Declare heights, – because of positioning of «img» element. */
 .carousel .item {
     height: 500px;
     background-color: #777;
@@ -74,7 +74,7 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
+/* Three columns below the carousel: center align the text. */
 .marketing .col-lg-4 {
     margin-bottom: 20px;
     text-align: center;
@@ -104,7 +104,7 @@ body {
     letter-spacing: -1px;
 }
 
-/* RESPONSIVE CSS
+/* RESPONSIVE C.S.S.
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
@@ -119,12 +119,12 @@ body {
         padding-left: 0;
     }
 
-    /* The navbar becomes detached from the top, so we round the corners */
+    /* The «navbar» – becomes detached from the top, so we – round the corners… */
     .navbar-wrapper .navbar {
         border-radius: 4px;
     }
 
-    /* Bump up size of carousel content */
+    /* Bump up – size in carousel's content! */
     .carousel-caption p {
         margin-bottom: 20px;
         font-size: 21px;
@@ -176,10 +176,10 @@ body {
 .navbar-inverse {
     background-color: #fff;
     border-color: #bbb;
-    background-image: -webkit-linear-gradient(top,#fefefe 0,#dedede 100%);
-    background-image: -o-linear-gradient(top,#fefefe 0,#dedede 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#dedede));
-    background-image: linear-gradient(to bottom,#fefefe 0,#dedede 100%);
+    background-image: -webkit-linear-gradient(top, #fefefe 0, #dedede 100%);
+    background-image: -o-linear-gradient(top, #fefefe 0, #dedede 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dedede));
+    background-image: linear-gradient(to bottom, #fefefe 0, #dedede 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffefefe', endColorstr='#ffdedede', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
@@ -336,40 +336,20 @@ body {
     width: 80%;
     left: 10%;
 }
-.flashbag {
-    z-index:999;
-}
-.alert {
-    z-index:999;
-}
-.flash-danger {
-    z-index:999;
-}
-.alert-danger {
-    z-index:999;
-}
-.flash-warning {
-    z-index:999;
-}
-.alert-warning {
-    z-index:999;
-}
-.flash-info {
-    z-index:999;
-}
-.alert-info {
-    z-index:999;
-}
-.flash-success {
-    z-index:999;
-}
-.alert-success {
+
+.flashbag,      .alert, 
+.flash-danger,  .alert-danger, 
+.flash-warning, .alert-warning, 
+.flash-info,    .alert-info,
+.flash-success, .alert-success 
+{
     z-index:999;
 }
 
 .form-group {
     margin-bottom: 15px;
     min-height: 23px;
+    clear: left;
 }
 
 .footercontainer {
@@ -466,19 +446,7 @@ label > span {
     overflow: hidden;
 }
 
-.profilegravatar {
-
-}
-
-.profileaccount {
-
-}
-
-.profilelocation {
-
-}
-
-.profilepersonal {
+.profilegravatar, .profileaccount, .profilelocation, .profilepersonal {
 
 }
 
@@ -487,15 +455,7 @@ label > span {
     font-size: 0.9em;
 }
 
-.profilecontact {
-
-}
-
-.profilesocial {
-
-}
-
-.profileinfo {
+.profilecontact, .profilesocial, .profileinfo {
 
 }
 
@@ -570,15 +530,7 @@ label > span {
     font-weight: normal;
 }
 
-#faq {
-
-}
-
-.faq {
-
-}
-
-.faqcontent {
+#faq, .faq, .faqcontent {
 
 }
 
@@ -1230,15 +1182,7 @@ table {
     padding:40px;
 }
 
-#announcement>.wrapper>span {
-
-}
-
-#announcement>.wrapper>.hide {
-
-}
-
-#announcement>.wrapper>.hide>a {
+#announcement>.wrapper>span, #announcement>.wrapper>.hide, #announcement>.wrapper>.hide>a {
 
 }
 
@@ -1279,10 +1223,7 @@ footer .banner .row {
     margin: 0;
 }
 
-.ads_footer {
-
-}
-.adsbygoogle {
+.ads_footer, .adsbygoogle {
 
 }
 
@@ -1454,47 +1395,3 @@ footer .banner .row {
     color: #337ab7;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
