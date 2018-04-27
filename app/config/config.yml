@@ -87,7 +87,7 @@ assetic:
     bundles:        [ 'FOSUserBundle', 'SywFrontMainBundle', 'SywFrontApiBundle' ]
     node: /usr/bin/nodejs
     filters:
-        #cssrewrite: ~
+        cssrewrite: ~
         #uglifyjs2:
             #bin: /usr/local/bin/uglifyjs
         uglifycss:
