@@ -1,1 +1,0 @@
-../..//vendor/propaganistas/twig-emailobfuscator/EmailObfuscator.js
