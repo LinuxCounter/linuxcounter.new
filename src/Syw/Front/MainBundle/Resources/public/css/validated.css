@@ -17176,6 +17176,7 @@ input[type="button"] {
 }
 
 #loadingDiv {
+    display: none;
     z-index: 99999;
     position: fixed;
     top: 70px;

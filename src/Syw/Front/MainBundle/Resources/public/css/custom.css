@@ -337,11 +337,11 @@ body {
     left: 10%;
 }
 
-.flashbag,      .alert, 
-.flash-danger,  .alert-danger, 
-.flash-warning, .alert-warning, 
+.flashbag,      .alert,
+.flash-danger,  .alert-danger,
+.flash-warning, .alert-warning,
 .flash-info,    .alert-info,
-.flash-success, .alert-success 
+.flash-success, .alert-success
 {
     z-index:999;
 }
@@ -403,6 +403,7 @@ input[type=button] {
 }
 
 #loadingDiv {
+    display: none;
     z-index: 99999;
     position: fixed;
     top: 70px;
