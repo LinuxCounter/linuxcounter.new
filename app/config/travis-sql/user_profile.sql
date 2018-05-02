@@ -38,6 +38,8 @@ CREATE TABLE `user_profile` (
   `google` varchar(255) DEFAULT NULL,
   `twitter` varchar(255) DEFAULT NULL,
   `identica` varchar(255) DEFAULT NULL,
+  `github` varchar(255) DEFAULT NULL,
+  `linkedin` varchar(255) DEFAULT NULL,
   `interests` varchar(2500) DEFAULT NULL,
   `hobbies` varchar(2500) DEFAULT NULL,
   `sincewhen` varchar(10) DEFAULT NULL,

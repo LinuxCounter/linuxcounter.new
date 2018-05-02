@@ -134,6 +134,12 @@
                                 <div id="profile_social_identica">{{ 'Identi.ca'|trans }}: <a
                                         href="{{ thisuserprofile.identica }}">{{ thisuserprofile.identica|length > 30 ? thisuserprofile.identica|slice(0, 30) ~ '...' : thisuserprofile.identica }}</a>
                                 </div>
+                                <div id="profile_social_github">{{ 'Github'|trans }}: <a
+                                        href="{{ thisuserprofile.github }}">{{ thisuserprofile.github|length > 30 ? thisuserprofile.github|slice(0, 30) ~ '...' : thisuserprofile.github }}</a>
+                                </div>
+                                <div id="profile_social_linkedin">{{ 'Linkedin'|trans }}: <a
+                                        href="{{ thisuserprofile.linkedin }}">{{ thisuserprofile.linkedin|length > 30 ? thisuserprofile.linkedin|slice(0, 30) ~ '...' : thisuserprofile.linkedin }}</a>
+                                </div>
                                 {% else %}
                                     This user has secured his social information
                                 {% endif %}

@@ -99,8 +99,18 @@
                             <div id="profile_social_google">{{ 'Google+'|trans }}: <a
                                         href="{{ userprofile.google }}">{{ userprofile.google|length > 30 ? userprofile.google|slice(0, 30) ~ '...' : userprofile.google }}</a>
                             </div>
-                            <div id="profile_social_twitter">{{ 'Twitter'|trans }}: {{ userprofile.twitter }}</div>
-                            <div id="profile_social_identica">{{ 'Identi.ca'|trans }}: {{ userprofile.identica }}</div>
+                            <div id="profile_social_twitter">{{ 'Twitter'|trans }}: <a
+                                    href="{{ thisuserprofile.twitter }}">{{ thisuserprofile.twitter|length > 30 ? thisuserprofile.twitter|slice(0, 30) ~ '...' : thisuserprofile.twitter }}</a>
+                            </div>
+                            <div id="profile_social_identica">{{ 'Identi.ca'|trans }}: <a
+                                    href="{{ thisuserprofile.identica }}">{{ thisuserprofile.identica|length > 30 ? thisuserprofile.identica|slice(0, 30) ~ '...' : thisuserprofile.identica }}</a>
+                            </div>
+                            <div id="profile_social_github">{{ 'Github'|trans }}: <a
+                                    href="{{ thisuserprofile.github }}">{{ thisuserprofile.github|length > 30 ? thisuserprofile.github|slice(0, 30) ~ '...' : thisuserprofile.github }}</a>
+                            </div>
+                            <div id="profile_social_linkedin">{{ 'Linkedin'|trans }}: <a
+                                    href="{{ thisuserprofile.linkedin }}">{{ thisuserprofile.linkedin|length > 30 ? thisuserprofile.linkedin|slice(0, 30) ~ '...' : thisuserprofile.linkedin }}</a>
+                            </div>
                         </div>
                     </div>
                 </div>

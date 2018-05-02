@@ -149,6 +149,20 @@ class UserProfile
     /**
      * @var string
      *
+     * @ORM\Column(name="github", type="string", length=255, nullable=true)
+     */
+    private $github;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="linkedin", type="string", length=255, nullable=true)
+     */
+    private $linkedin;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="interests", type="string", length=2500, nullable=true)
      */
     private $interests;
@@ -536,6 +550,52 @@ class UserProfile
     public function getIdentica()
     {
         return $this->identica;
+    }
+
+    /**
+     * Set github
+     *
+     * @param string $github
+     * @return UserProfile
+     */
+    public function setGithub($github)
+    {
+        $this->github = $github;
+
+        return $this;
+    }
+
+    /**
+     * Get github
+     *
+     * @return string
+     */
+    public function getGithub()
+    {
+        return $this->github;
+    }
+
+    /**
+     * Set linkedin
+     *
+     * @param string $linkedin
+     * @return UserProfile
+     */
+    public function setLinkedin($linkedin)
+    {
+        $this->linkedin = $linkedin;
+
+        return $this;
+    }
+
+    /**
+     * Get linkedin
+     *
+     * @return string
+     */
+    public function getLinkedin()
+    {
+        return $this->linkedin;
     }
 
     /**
