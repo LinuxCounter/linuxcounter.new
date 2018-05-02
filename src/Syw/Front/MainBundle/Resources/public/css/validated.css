@@ -18535,7 +18535,9 @@ img {
 }
 
 
-
+select#userprofile_sincewhen_day {
+    display: none;
+}
 
 
 
