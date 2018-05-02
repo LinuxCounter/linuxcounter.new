@@ -128,8 +128,12 @@
                                 <div id="profile_social_google">{{ 'Google+'|trans }}: <a
                                             href="{{ thisuserprofile.google }}">{{ thisuserprofile.google|length > 30 ? thisuserprofile.google|slice(0, 30) ~ '...' : thisuserprofile.google }}</a>
                                 </div>
-                                <div id="profile_social_twitter">{{ 'Twitter'|trans }}: {{ thisuserprofile.twitter }}</div>
-                                <div id="profile_social_identica">{{ 'Identi.ca'|trans }}: {{ thisuserprofile.identica }}</div>
+                                <div id="profile_social_twitter">{{ 'Twitter'|trans }}: <a
+                                        href="{{ thisuserprofile.twitter }}">{{ thisuserprofile.twitter|length > 30 ? thisuserprofile.twitter|slice(0, 30) ~ '...' : thisuserprofile.twitter }}</a>
+                                </div>
+                                <div id="profile_social_identica">{{ 'Identi.ca'|trans }}: <a
+                                        href="{{ thisuserprofile.identica }}">{{ thisuserprofile.identica|length > 30 ? thisuserprofile.identica|slice(0, 30) ~ '...' : thisuserprofile.identica }}</a>
+                                </div>
                                 {% else %}
                                     This user has secured his social information
                                 {% endif %}
