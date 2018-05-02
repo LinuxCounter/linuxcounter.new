@@ -136,7 +136,7 @@
                             <h3 class="panel-title">{{ 'Interests'|trans }}</h3>
                         </div>
                         <div class="panel-body">
-                            {{ userprofile.interests }}
+                            {{ userprofile.interests | nl2br }}
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@
                             <h3 class="panel-title">{{ 'Hobbies'|trans }}</h3>
                         </div>
                         <div class="panel-body">
-                            {{ userprofile.hobbies }}
+                            {{ userprofile.hobbies | nl2br }}
                         </div>
                     </div>
                 </div>
