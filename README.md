@@ -1,18 +1,20 @@
 .
+
 .
+
 .
-.
+
+
 The counter has died! (2018-12-10)
 ----------------------------------
 **The project is closed and the code is only available for historical purposes**
 
+.
 
 .
+
 .
-.
-.
-.
-.
+
 .
 
 
